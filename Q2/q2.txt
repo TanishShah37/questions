@@ -1,0 +1,4 @@
+In an example of 4 people: The first person can shake hands with all the others (N-1)=3. The seconds person can shake hands with all the others, without 1: (N-1-1)=2, third = (N-1-1-1)=1, fourth = (N-1-1-1-1)=0. Hence we get exactly range(4) . 
+
+
+0+1+2+3 == 6, we get the total number of handshakes.
